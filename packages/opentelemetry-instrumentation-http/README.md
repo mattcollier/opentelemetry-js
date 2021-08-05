@@ -55,8 +55,8 @@ Http instrumentation has few options available to choose from. You can set the f
 | [`ignoreIncomingPaths`](https://github.com/open-telemetry/opentelemetry-js/blob/main/packages/opentelemetry-instrumentation-http/src/types.ts#L87) | `IgnoreMatcher[]` | Http instrumentation will not trace all incoming requests that match paths |
 | [`ignoreOutgoingUrls`](https://github.com/open-telemetry/opentelemetry-js/blob/main/packages/opentelemetry-instrumentation-http/src/types.ts#L89) | `IgnoreMatcher[]` | Http instrumentation will not trace all outgoing requests that match urls |
 | [`serverName`](https://github.com/open-telemetry/opentelemetry-js/blob/main/packages/opentelemetry-instrumentation-http/src/types.ts#L101) | `string` | The primary server name of the matched virtual host. |
-| [`requireParentforOutgoingSpans`](https://github.com/open-telemetry/opentelemetry-js/blob/main/packages/opentelemetry-instrumentation-http/src/types.ts#L103) | Boolean | Require that is a parent span to create new span for outgoing requests. |
-| [`requireParentforIncomingSpans`](https://github.com/open-telemetry/opentelemetry-js/blob/main/packages/opentelemetry-instrumentation-http/src/types.ts#L105) | Boolean | Require that is a parent span to create new span for incoming requests. |
+| [`requireParentforOutgoingSpans`](https://github.com/open-telemetry/opentelemetry-js/blob/main/packages/opentelemetry-instrumentation-http/src/types.ts#L103) | Boolean | Require a parent span to create new span for outgoing requests. |
+| [`requireParentforIncomingSpans`](https://github.com/open-telemetry/opentelemetry-js/blob/main/packages/opentelemetry-instrumentation-http/src/types.ts#L105) | Boolean | Require a parent span to create new span for incoming requests. |
 
 ## Useful links
 
